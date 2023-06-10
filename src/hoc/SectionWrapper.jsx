@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { styles } from '../styles';
 import { staggerContainer } from '../utils/motion';
 
+// High order component
 const SectionWrapper = (Component, idName) =>
 function HOC() {
     return (
