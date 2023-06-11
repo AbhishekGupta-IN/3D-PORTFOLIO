@@ -17,9 +17,46 @@ const Contact = () => {
 
   const [loading, setLoading] = useState(false);
 
-  const handleChange = (e) => {};
+  const handleChange = (e) => {
+    const { name, value } = e.target;
+    setForm({ ...form, [name]: value });
+  };
 
-  const handleSubmit = (e) => {};
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    setLoading(true);
+
+    // 2__u87NOreA4qFyqc
+// service_xq6dtoo
+// template_6669ohc
+
+    emailjs
+      .send(
+        'service_xq6dtoo',
+        'template_6669ohc',
+        {
+          from_name: form.name,
+          to_name: 'Abhishek',
+          from_email: form.email,
+          to_email: 'abhishekgupt.in@gmail.com',
+          message: form.message,
+        },
+        '2__u87NOreA4qFyqc',
+      )
+      .then(() => {
+        setLoading(false);
+        alert('Thnak you. I will get back to you as soon as possible');
+        setForm({
+          name: '',
+          email: '',
+          message: '',
+        });
+      })
+      .catch((error) => {
+        console.error(error, 'Failed to contact');
+        alert('Something went wrong!')
+      })
+  };
 
   return (
     <div className='xl:mt-12 xl:flex-row flex-col-reverse flex gap-10 overflow-hidden'>
