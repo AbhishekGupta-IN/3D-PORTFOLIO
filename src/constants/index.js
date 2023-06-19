@@ -1,7 +1,6 @@
 import {
     mobile,
     backend,
-    creator,
     web,
     javascript,
     typescript,
@@ -15,14 +14,17 @@ import {
     git,
     figma,
     docker,
-    meta,
-    starbucks,
-    tesla,
-    shopify,
-    carrent,
-    jobit,
-    tripguide,
+    eightfold,
+    everwell,
+    samsung,
+    parinati,
+    portfolio,
+    minionTranslate,
+    emojiInterpreter,
     threejs,
+    python,
+    vue,
+    solr,
   } from "../assets";
   
   export const navLinks = [
@@ -46,16 +48,12 @@ import {
       icon: web,
     },
     {
-      title: "React Native Developer",
+      title: "Frontend Developer",
       icon: mobile,
     },
     {
       title: "Backend Developer",
       icon: backend,
-    },
-    {
-      title: "Content Creator",
-      icon: creator,
     },
   ];
   
@@ -72,13 +70,17 @@ import {
       name: "JavaScript",
       icon: javascript,
     },
-    {
-      name: "TypeScript",
-      icon: typescript,
-    },
+    // {
+    //   name: "TypeScript",
+    //   icon: typescript,
+    // },
     {
       name: "React JS",
       icon: reactjs,
+    },
+    {
+      name: "Vue JS",
+      icon: vue,
     },
     {
       name: "Redux Toolkit",
@@ -88,83 +90,75 @@ import {
       name: "Tailwind CSS",
       icon: tailwind,
     },
-    {
-      name: "Node JS",
-      icon: nodejs,
-    },
-    {
-      name: "MongoDB",
-      icon: mongodb,
-    },
+    // {
+    //   name: "Node JS",
+    //   icon: nodejs,
+    // },
+    // {
+    //   name: "MongoDB",
+    //   icon: mongodb,
+    // },
     {
       name: "Three JS",
       icon: threejs,
     },
     {
-      name: "git",
+      name: "Git",
       icon: git,
     },
     {
-      name: "figma",
-      icon: figma,
+      name: "Python",
+      icon: python,
     },
     {
-      name: "docker",
-      icon: docker,
+      name: "Solr",
+      icon: solr,
     },
+    // {
+    //   name: "figma",
+    //   icon: figma,
+    // },
+    // {
+    //   name: "docker",
+    //   icon: docker,
+    // },
   ];
   
   const experiences = [
     {
-      title: "React.js Developer",
-      company_name: "Starbucks",
-      icon: starbucks,
+      title: "Software Engineer",
+      company_name: "Eightfold AI",
+      icon: eightfold,
       iconBg: "#383E56",
-      date: "March 2020 - April 2021",
+      date: "Jun 2021 - Present",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Contributed to the JIE project at Eightfold, serving as a pivotal integration point for TA and TM products.",
+        "Embraced additional responsibilities to integrate with TA and TM systems, supporting skill assessment, succession planning, career navigation, and hiring processes.",
+        "It is now vital in every sale, as it helps customers to manage talent seamlessly which wasn't the case earlier",
+        "Played a key role in its UI development, building and implementing multiple pages and workflows. Responsible for end-to-end feature development, seamlessly fusing front-end and back-end efforts.",
       ],
     },
     {
-      title: "React Native Developer",
-      company_name: "Tesla",
-      icon: tesla,
+      title: "Full Stack Developer, Intern",
+      company_name: "Everwell Health Soulutions Pvt Ltd",
+      icon: everwell,
       iconBg: "#E6DEDD",
-      date: "Jan 2021 - Feb 2022",
+      date: "Aug 2020 - Dec 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Fixed multiple bugs and build defects in our platforms, as part of the on-call team.",
+        "Automated monitoring of developer's sprint status as per a . Built a system to automatically generate reports. Was responsible for full management of the website from the coding phase to deployment.",
+        "The technologies I used were, VueJS, Selenium, and Ruby. ",
       ],
     },
     {
-      title: "Web Developer",
-      company_name: "Shopify",
-      icon: shopify,
-      iconBg: "#383E56",
-      date: "Jan 2022 - Jan 2023",
+      title: "Software Developer, Intern",
+      company_name: "Samsung R&D Institute India",
+      icon: samsung,
+      iconBg: "white",
+      date: "May 2020 - Jun 2020",
       points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
-      ],
-    },
-    {
-      title: "Full stack Developer",
-      company_name: "Meta",
-      icon: meta,
-      iconBg: "#E6DEDD",
-      date: "Jan 2023 - Present",
-      points: [
-        "Developing and maintaining web applications using React.js and other related technologies.",
-        "Collaborating with cross-functional teams including designers, product managers, and other developers to create high-quality products.",
-        "Implementing responsive design and ensuring cross-browser compatibility.",
-        "Participating in code reviews and providing constructive feedback to other developers.",
+        "Made a Deep Learning model for denoising of noisy audio signals with low SNR that can be used while calling.",
+        "Major libraries used were TensorFlow 2.0, Keras, and Librosa.",
       ],
     },
   ];
@@ -198,16 +192,16 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "3-D Portfolio",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Built this portfolio using React and ThreeJS. Took reference from JSMastery's tutorial, using some react libraries like framer-motion, react-tilt, react-vertical-timeline-component",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "threejs",
           color: "green-text-gradient",
         },
         {
@@ -215,41 +209,43 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: portfolio,
+      source_code_link: "https://github.com/AbhishekGupta-IN/3D-PORTFOLIO",
+      project_link: "https://abhishekgupta-in.netlify.app/",
     },
     {
-      name: "Job IT",
+      name: "Minion Translate",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        "Are you a fan of minions? Did you know that the gibberish they say is an actual language. Use the translator to convert your text from English to Minion speak or Banana language.",
+      tags: [
+        {
+          name: "html",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "css",
+          color: "green-text-gradient",
+        },
+        {
+          name: "api",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: minionTranslate,
+      source_code_link: "https://github.com/AbhishekGupta-IN/minion-translate",
+      project_link: "https://abhishekgupta-in-minion-translate.netlify.app/",
+    },
+    {
+      name: "Emoji Interpreter",
+      description:
+        "Use this web app to interpret the emoji, you don't know the meaning of. This site consist of around 850 emojis. You can get the meaning by typing or selecting the emojis from the list.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
-          color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
+          name: "html",
           color: "green-text-gradient",
         },
         {
@@ -257,8 +253,9 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: tripguide,
-      source_code_link: "https://github.com/",
+      image: emojiInterpreter,
+      source_code_link: "https://github.com/AbhishekGupta-IN/emoji-interpreter",
+      project_link: "https://abhishekgupta-in-emoji-interpreter.netlify.app/",
     },
   ];
   

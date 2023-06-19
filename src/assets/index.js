@@ -4,6 +4,7 @@ import creator from "./creator.png";
 import mobile from "./mobile.png";
 import web from "./web.png";
 import github from "./github.png";
+import launch from "./launch.png";
 import menu from "./menu.svg";
 import close from "./close.svg";
 
@@ -20,15 +21,18 @@ import redux from "./tech/redux.png";
 import tailwind from "./tech/tailwind.png";
 import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
+import python from "./tech/python.png";
+import vue from "./tech/vue.png";
+import solr from "./tech/solr.png";
 
-import meta from "./company/meta.png";
-import shopify from "./company/shopify.png";
-import starbucks from "./company/starbucks.png";
-import tesla from "./company/tesla.png";
+import eightfold from "./company/eightfold.png";
+import everwell from "./company/everwell.png";
+import samsung from "./company/samsung.png";
+import parinati from "./company/parinati.png";
 
-import carrent from "./carrent.png";
-import jobit from "./jobit.png";
-import tripguide from "./tripguide.png";
+import portfolio from "./portfolio.png";
+import minionTranslate from "./minion-translate.png";
+import emojiInterpreter from "./emoji-interpreter.png";
 
 export {
   logo,
@@ -37,6 +41,7 @@ export {
   mobile,
   web,
   github,
+  launch,
   menu,
   close,
   css,
@@ -52,11 +57,14 @@ export {
   tailwind,
   typescript,
   threejs,
-  meta,
-  shopify,
-  starbucks,
-  tesla,
-  carrent,
-  jobit,
-  tripguide,
+  python,
+  vue,
+  solr,
+  eightfold,
+  everwell,
+  samsung,
+  parinati,
+  portfolio,
+  minionTranslate,
+  emojiInterpreter,
 };
