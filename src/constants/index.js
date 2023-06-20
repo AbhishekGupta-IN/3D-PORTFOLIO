@@ -79,12 +79,12 @@ import {
       icon: reactjs,
     },
     {
-      name: "Vue JS",
-      icon: vue,
-    },
-    {
       name: "Redux Toolkit",
       icon: redux,
+    },
+    {
+      name: "Vue JS",
+      icon: vue,
     },
     {
       name: "Tailwind CSS",
@@ -132,10 +132,13 @@ import {
       iconBg: "#383E56",
       date: "Jun 2021 - Present",
       points: [
-        "Contributed to the JIE project at Eightfold, serving as a pivotal integration point for TA and TM products.",
-        "Embraced additional responsibilities to integrate with TA and TM systems, supporting skill assessment, succession planning, career navigation, and hiring processes.",
-        "It is now vital in every sale, as it helps customers to manage talent seamlessly which wasn't the case earlier",
-        "Played a key role in its UI development, building and implementing multiple pages and workflows. Responsible for end-to-end feature development, seamlessly fusing front-end and back-end efforts.",
+        "Contributing to the JIE project at Eightfold AI, which is serving as a pivotal integration point for TA (Talent Acquisition) and TM (Talent Management) products.",
+        "Played a key role in developing the UI, building multiple pages and workflows. Responsible for end-to-end feature development, bridging front-end and back-end efforts.",
+        "JIE started as a hub of calibration storage/library serving as a golden dataset for TA use cases like hiring and job postings.",
+        "Also powering many TM downstream use cases such as skill assessments, career navigation, up-skilling and succession planning for employees",
+        "Implemented key features to streamline library management, including comparison, auto-initialization, and trend-based dashboards for improvement suggestions",
+        "Vital in every company sale, serving as a prerequisite for multiple downstream use-cases.",
+        "Single-handedly led the complete revamp and UI refresh of the project.",
       ],
     },
     {
@@ -145,9 +148,10 @@ import {
       iconBg: "#E6DEDD",
       date: "Aug 2020 - Dec 2020",
       points: [
-        "Fixed multiple bugs and build defects in our platforms, as part of the on-call team.",
-        "Automated monitoring of developer's sprint status as per a . Built a system to automatically generate reports. Was responsible for full management of the website from the coding phase to deployment.",
-        "The technologies I used were, VueJS, Selenium, and Ruby. ",
+        "Resolved multiple bugs and build defects as part of the on-call team in the first month",
+        "Automated sprint status monitoring for developers based on Gitlab and developed a system for generating reports automatically",
+        "Fully managed the website from coding to deployment",
+        "Technologies used - VueJS, Ruby, and Selenium.",
       ],
     },
     {
@@ -157,8 +161,20 @@ import {
       iconBg: "white",
       date: "May 2020 - Jun 2020",
       points: [
-        "Made a Deep Learning model for denoising of noisy audio signals with low SNR that can be used while calling.",
-        "Major libraries used were TensorFlow 2.0, Keras, and Librosa.",
+        "Developed a Deep Learning model for denoising low SNR audio signals, suitable for real-time calls",
+        "Technologies used - TensorFlow 2.0, Keras, and Librosa.",
+      ],
+    },
+    {
+      title: "Data Analyst, Intern",
+      company_name: "Parinati Solutions Private Limited",
+      icon: parinati,
+      iconBg: "#383E56",
+      date: "May 2019 - Jul 2019",
+      points: [
+        "Explored and implemented diverse trading strategies for Binance coin",
+        "Conducted profit and loss analysis to validate trading outcomes",
+        "Utilized key indicators such as Bollinger Bands, Stochastic Indicator, and Aroon Oscillator",
       ],
     },
   ];
